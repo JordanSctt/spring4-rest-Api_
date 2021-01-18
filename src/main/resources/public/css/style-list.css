@@ -1,0 +1,34 @@
+
+body {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: #A9A9A9; 
+}
+
+.container {
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.formulaire {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+    background: #fc9d03;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 140px;
+}
+

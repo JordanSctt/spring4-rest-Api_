@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meteo des villes</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style-list.css"/>
+
+</head>
+
+<body>
+<div class="container">
+
+<h1 class="h3 justify-content-center">Gestion des Villes</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <td class="h6" scope="col">City id</td>
+            <td class="h6" scope="col">City name</td>
+            <td class="h6" scope="col">Meteo</td>
+            <td class="h6" scope="col">Action</td>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+    </tbody>
+</table>
+
+
+<button class="btn btn-info" id="buttonDisplayCreateCity">Ajouter une ville</button>
+<div class="formulaire" id="form">
+    <input type="hidden"  id="edit_id"><br/>
+    <span class="h6">Name:</span><input class="form-control" type="text" id="edit_name"><br/>
+    <button class="btn btn-secondary" id="buttonSubmitEditCity">Valider</button>
+</div>
+
+</div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+</html>
